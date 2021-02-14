@@ -7,10 +7,10 @@ list.addEventListener("change", (e) => {
   let valor = e.target.value;
   switch (valor) {
     case "huesos":
-      img.setAttribute("src", "/img/HTML.png");
+      img.setAttribute("src", "./img/HTML.png");
       break;
     case "venas":
-      img.setAttribute("src", "/img/JAVASCRIPT.png");
+      img.setAttribute("src", "./img/JAVASCRIPT.png");
       break;
     default:
       break;
