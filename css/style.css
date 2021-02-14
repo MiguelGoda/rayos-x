@@ -11,17 +11,17 @@ body {
   flex-direction: column;
 }
 .container {
-  height: 95%;
+  height: 570px;
   width: 400px;
   position: relative;
 }
 .items {
-  height: 94%;
+  height: 570px;
   width: 300px;
   position: absolute;
 }
 .img1 {
-  background-image: url(./img/css.png);
+  background-image: url("./img/css.png");
   background-size: cover;
   background-position: center center;
 }
