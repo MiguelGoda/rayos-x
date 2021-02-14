@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #14133f;
+  overflow: hidden;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  height: 95%;
+  width: 400px;
+  position: relative;
+}
+.items {
+  height: 94%;
+  width: 300px;
+  position: absolute;
+}
+.img1 {
+  background-image: url(/img/css.png);
+  background-size: cover;
+  background-position: center center;
+}
+.img2 {
+  background-color: #ffff;
+  clip-path: circle(60px at 50% 50%);
+}
+.conten-listado {
+  padding-top: 10px;
+  width: 110px;
+}
+.select {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+img-select {
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+}
